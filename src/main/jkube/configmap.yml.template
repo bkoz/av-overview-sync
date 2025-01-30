@@ -16,9 +16,9 @@ data:
           drop-if-exists: false
           vectorizer-module: "text2vec-ollama"
           vectorizer-module-config:
-            apiEndpoint: "http://ollama.ollama:11434"
+            apiEndpoint: "http://ollama.ollama:80"
             model: "all-minilm"
           generative-module: "generative-ollama"
           generative-module-config:
-            apiEndpoint: "http://ollama.ollama:11434"
-            model: "llama3"
+            apiEndpoint: "http://ollama.ollama:80"
+            model: "granite3-dense:8b"
